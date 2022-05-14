@@ -1,0 +1,61 @@
+body {
+    color: #7F7F7F;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0% 0%;
+}
+.topnav{
+	border-bottom:1px solid silver;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.topnav a{
+	font-size: 25px;
+	margin: 3%;
+	color: silver;
+}
+
+a{
+	text-decoration: none;
+}
+.imgbox{
+	display: grid;
+	height: 100%;
+}
+.image-style{
+	max-width: 96%;
+	max-height: 100%;
+	margin: 2%;
+	border-radius: 10px;
+}
+.search-button{
+	background-color:#cc0000;
+	border:none;
+	border-radius:2px
+}
+.search-button:active{
+	background-color:gray;
+}
+.sign-in{
+	width: 60%;
+	margin-left:5px;
+	color: white;
+	background-color: #cc0000;
+	margin-top: 3px;
+	border:none
+}
+
+.sign-in:active{
+	background-color:gray;
+}
+.google-sign{
+	width: 60%;
+	margin-left:5px;
+	color: white;
+	background-color: #0cf;
+	border:none
+}
+.google-sign:active{
+	background-color:gray;
+}
+/* TODO */
